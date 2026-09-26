@@ -1,0 +1,23 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Test and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Training data and generated model checkpoints
+data/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
